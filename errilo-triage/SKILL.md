@@ -13,7 +13,7 @@ If the user named a project, use its slug. If they did not and `list_projects` r
 
 ## 2. List the open issues
 
-Call `search_issues` with `sort: "users"` and `limit: 20`: unresolved issues, the ones affecting the most end users over the last 7 days first. Each result shows the issue id, the number of events, the users affected over 7 days (or `users unknown` when the events carry no user), the first and last occurrence and, for a regression, when it regressed. If many results show `users unknown`, also call `search_issues` with the default sort to catch recent issues that report no user.
+Call `search_issues` with `sort: "users"` and `limit: 20`: unresolved issues, the ones affecting the most end users over the last 7 days first. Each result shows the issue id, the number of events, the users affected over 7 days (or `users unknown (7d)` when the events carry no user), the first and last occurrence and, for a regression, when it regressed. If many results show `users unknown (7d)`, also call `search_issues` with the default sort to catch recent issues that report no user.
 
 ## 3. Rank them
 
