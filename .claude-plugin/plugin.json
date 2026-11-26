@@ -1,0 +1,16 @@
+{
+  "name": "errilo",
+  "version": "0.4.0",
+  "description": "Production errors of your JavaScript, TypeScript, PHP and Python apps, ready for Claude Code to fix: the Errilo MCP server and its skills.",
+  "author": {
+    "name": "Errilo"
+  },
+  "license": "MIT",
+  "keywords": [
+    "errilo",
+    "error-tracking",
+    "sentry",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json"
+}

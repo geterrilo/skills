@@ -1,0 +1,14 @@
+{
+  "name": "errilo",
+  "owner": {
+    "name": "Errilo"
+  },
+  "description": "The Errilo plugin for Claude Code: the Errilo MCP server and its skills.",
+  "plugins": [
+    {
+      "name": "errilo",
+      "source": "./",
+      "description": "The Errilo MCP server and its skills: fix, triage and set up production error tracking."
+    }
+  ]
+}
