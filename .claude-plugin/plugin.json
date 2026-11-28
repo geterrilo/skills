@@ -1,6 +1,6 @@
 {
   "name": "errilo",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Production errors of your JavaScript, TypeScript, PHP and Python apps, ready for Claude Code to fix: the Errilo MCP server and its skills.",
   "author": {
     "name": "Errilo"
